@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: dashy
+    env: dev
   name: dashy
 spec:
   replicas: 1
